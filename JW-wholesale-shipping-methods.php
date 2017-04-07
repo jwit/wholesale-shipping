@@ -1,13 +1,13 @@
 <?php
  
 /**
- * Plugin Name: WooCommerce Wholesale Shipping Methods
- * Plugin URI: http://www.broodtrommelliefde.nl
- * Description: Wholesale verzendmethodes voor broodtrommelliefde.nl
+ * Plugin Name: WooCommerce Custom Shipping Methods
+ * Plugin URI: https://github.com/jwit/wholesale-shipping/
+ * Description: Custom Shipping Methods
  * Version: 1.0
  * Author: Jeff de Wit
- * Author URI: mailto://jeff.dewit@gmail.com
- * License: Copyright @ broodtrommelliefde.nl
+ * Author URI: https://github.com/jwit/wholesale-shipping/
+ * License: Copyright @ Jeff de Wit
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
