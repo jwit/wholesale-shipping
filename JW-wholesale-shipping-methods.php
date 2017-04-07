@@ -26,7 +26,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	 */
 	public function __construct( $instance_id = 0 ) {
 		$this->id                    = 'jwwholesale_method';
-		$this->instance_id 			     = absint( $instance_id );
+		$this->instance_id           = absint( $instance_id );
 		$this->method_title          = __( 'Wholesale Shipping' );
 		$this->method_description    = __( 'Wholesale shipping method.' );
 		$this->supports              = array(
@@ -71,7 +71,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
         			'desc_tip'		=> true
         		)
 		);
-		$this->enabled		    = $this->get_option( 'enabled' );
+		$this->enabled        = $this->get_option( 'enabled' );
 		$this->title          = $this->get_option( 'title' );
 		$this->cost           = $this->get_option( 'cost' );
 		$this->weight         = $this->get_option( 'weight' );
@@ -91,7 +91,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
     $cost     = 0;
 
 		$shipping_rate 	= $this->cost;
-		$max_weight  		= $this->weight;
+		$max_weight  	= $this->weight;
 		$max_quantity 	= $this->quantity;
 
     foreach ( $package['contents'] as $item_id => $values ) 
